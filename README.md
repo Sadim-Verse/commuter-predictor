@@ -9,7 +9,7 @@ Motivated by the mission of **Triply**, this tool simulates a workforce distribu
 
 ## 📊 The Output
 *(Place the screenshot of the map you generated here. Name the file `linz_map_result.png`)*
-![Linz Optimization Map](<img width="631" height="814" alt="linz_map_result" src="https://github.com/user-attachments/assets/4cc99c03-8aef-4e45-9dbd-7350a14b554d" />)
+![Linz Optimization Map](linz_map_result.png)
 
 ## 🛠 Tech Stack
 * **Data Acquisition:** `OSMnx` (OpenStreetMap API) for street networks and city boundaries.
