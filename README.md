@@ -8,7 +8,6 @@ This project is a **Geospatial Machine Learning prototype** designed to solve a 
 Motivated by the mission of **Triply**, this tool simulates a workforce distribution within the city and utilizes clustering algorithms to identify optimal "Hub Locations" for corporate shuttle services. The goal is to minimize the carbon footprint of commuting by replacing single-occupancy vehicles with optimized group transport.
 
 ## 📊 The Output
-*(Place the screenshot of the map you generated here. Name the file `linz_map_result.png`)*
 ![Linz Optimization Map](linz_map_result.png)
 
 ## 🛠 Tech Stack
@@ -41,7 +40,7 @@ The script calculates the **Average Displacement** (Haversine distance) from emp
 * **Simulated Workforce:** 200 Employees
 * **Average Walking Distance:** `2,140 meters` (~2.1 km)
 
-### 💡 Critical Insight
+### 💡 Insight
 While the model successfully identified central hubs, an average walking distance of **2.1 km** indicates that **5 hubs are insufficient** for a city the size of Linz to achieve high adoption rates. 
 
 **Next Steps for Optimization:**
@@ -49,26 +48,9 @@ While the model successfully identified central hubs, an average walking distanc
 2.  **Network Distance:** Replace Haversine (straight-line) distance with `network_distance` (Manhattan distance) to account for actual street layouts.
 3.  **Density-Based Clustering:** Switch from K-Means to **DBSCAN** or **HDBSCAN** to better handle noise and irregular cluster shapes in suburban areas.
 
-## 🚀 How to Run
-
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/linz-mobility-optimizer.git](https://github.com/YOUR_USERNAME/linz-mobility-optimizer.git)
-    cd linz-mobility-optimizer
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    pip install osmnx geopandas scikit-learn matplotlib
-    ```
-
-3.  **Run the Script**
-    ```bash
-    python optimize_routes.py
-    ```
 
 ## 👨‍💻 Author
-**[Your Name]**
+**[Ibraheem Sadu]**
 * **Role:** AI/ML Engineer (Aspiring Intern)
 * **Focus:** Sustainable Mobility & Spatial Data Science
-* [LinkedIn Profile Link]
+* [[LinkedIn Profile Link](https://www.linkedin.com/in/ibraheem-sadu/)]
