@@ -50,7 +50,7 @@ While the model successfully identified central hubs, an average walking distanc
 
 
 ## 👨‍💻 Author
-**[Ibraheem Sadu]**
+**Ibraheem Sadu**
 * **Role:** AI/ML Engineer (Aspiring Intern)
 * **Focus:** Sustainable Mobility & Spatial Data Science
 * [LinkedIn Profile Link](https://www.linkedin.com/in/ibraheem-sadu/)
